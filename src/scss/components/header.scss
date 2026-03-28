@@ -1,5 +1,5 @@
 .header {
-  background: #0f227b;
+  background: #dadcdf;
   padding: 6px 0;
   position: fixed;
   width: 100%;
@@ -40,16 +40,16 @@
   @include media(desktop) {
     display: flex;
     align-items: center;
-    gap: 36px;
+    gap: 28px;
   }
 }
 
 .nav-list-link {
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  color: #dbfbff;
+  color: #383838;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,10 +73,11 @@
 }
 
 .menu-icon {
+  stroke: #383838;
 }
 
 .close-icon {
-  fill: #dbfbff;
+  stroke: #383838;
 }
 
 .close-btn {

@@ -4,16 +4,21 @@
 }
 
 .hero-bg-wrapper {
-  padding-top: 120px;
-  padding-bottom: 94px;
+  padding-top: 125px;
+  padding-bottom: 267px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
 
   @include media(desktop) {
-    padding-top: 120px;
-    padding-bottom: 60px;
+    padding-top: 130px;
+    padding-bottom: 149px;
     max-width: 1440px;
+    background-image: url(../img/hero/hero-bg-desk.jpg);
   }
 }
 
@@ -24,80 +29,32 @@
 
 .hero-content-wrapper {
   @include media(desktop) {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-  }
-}
-
-.hero-text-wrapper {
-  @include media(desktop) {
-    max-width: 735px;
   }
 }
 
 .hero-main-title {
-  font-family: 'Urbanist', sans-serif;
-  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
   font-size: 48px;
   line-height: 1.2;
-  color: #0f227b;
-  margin-bottom: 24px;
+  color: #764aa7;
+  margin-bottom: 40px;
 
   @include media(desktop) {
     font-size: 72px;
-    margin-bottom: 16px;
-  }
-}
-
-.hero-subtitle {
-  font-family: 'Urbanist', sans-serif;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.3;
-  color: #0f227b;
-  margin-bottom: 48px;
-
-  @include media(desktop) {
-    font-size: 28px;
-    margin-bottom: 32px;
+    margin-bottom: 65px;
   }
 }
 
 .hero-text {
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #0f227b;
-  margin-bottom: 48px;
+  color: #383838;
 
   @include media(desktop) {
     font-size: 18px;
-    max-width: 640px;
-  }
-}
-
-.hero-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: max-content;
-  margin-left: auto;
-  margin-right: auto;
-
-  @include media(desktop) {
-    margin: 0;
-  }
-}
-
-.hero-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    box-shadow: 0 0 12px 0 #1e58ae;
-    border-radius: 6px;
-    min-width: 352px;
+    max-width: 544px;
   }
 }
