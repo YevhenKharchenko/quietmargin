@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://truefootprint.pro/sitemap.xml
+Sitemap: https://quietmargin.space/sitemap.xml

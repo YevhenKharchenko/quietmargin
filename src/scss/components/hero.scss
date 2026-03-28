@@ -12,7 +12,7 @@
   background-image: url(../img/hero/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: auto;
+  background-size: cover;
 
   @include media(desktop) {
     padding-top: 130px;

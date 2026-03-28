@@ -4,8 +4,8 @@
 }
 
 .faq-bg-wrapper {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
 
@@ -30,11 +30,6 @@
   }
 }
 
-.faq-subtitle {
-  @include media(desktop) {
-  }
-}
-
 .faq-list {
   display: flex;
   flex-direction: column;
@@ -45,10 +40,8 @@
 }
 
 .faq-list-item {
-  box-shadow: 2px 4px 6px 0 #c7f0f5;
-  background: #f5feff;
-  border-radius: 8px;
-  padding: 8px 16px;
+  border-bottom: 1px solid #a6a6a6;
+  padding-bottom: 15px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -71,11 +64,11 @@
 }
 
 .faq-btn-text {
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
-  color: #0f227b;
+  color: #764aa7;
   text-align: left;
 
   @include media(desktop) {
@@ -87,8 +80,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 24px;
-  height: 24px;
+  min-width: 28px;
+  height: 28px;
   margin-left: auto;
   transition: transform 0.3s ease-in-out;
 
@@ -97,16 +90,18 @@
 }
 
 .faq-icon {
+  stroke: #383838;
+
   @include media(desktop) {
   }
 }
 
 .faq-bottom-text {
-  font-family: 'Urbanist', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e4fe9;
+  color: #383838;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
