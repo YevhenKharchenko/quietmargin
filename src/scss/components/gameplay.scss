@@ -1,0 +1,128 @@
+.gameplay-section {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.gameplay-container {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  @include media(desktop) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+
+.gameplay-text-wrapper {
+  @include media(desktop) {
+    max-width: 544px;
+    margin-top: 80px;
+  }
+}
+
+.gameplay-title {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-text {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0f227b;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.gameplay-top-text {
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    margin-bottom: 24px;
+  }
+}
+
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    margin-bottom: 24px;
+  }
+}
+
+.gameplay-list-item {
+  padding-left: 7px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-circle {
+  background: #20ff00;
+  border-radius: 100%;
+  min-width: 10px;
+  width: 10px;
+  height: 10px;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-text {
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0f227b;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.gameplay-bottom-text {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-img {
+  @include media(desktop) {
+    min-width: 448px;
+  }
+}
